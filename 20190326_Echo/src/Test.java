@@ -1,11 +1,11 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Test {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		while(true) {
-		System.out.println("\n무슨 말이 하고싶으세요?>>>>>>>>");
+		System.out.println("무슨 말이 하고싶으세요?>>>>>>>>");
 		String inputString = sc.nextLine();
 		
 		
@@ -13,7 +13,7 @@ public class Test {
 			System.out.print("끝");
 			break;
 		 }
-		System.out.println("\n"+inputString);
+		System.out.println(inputString);
 	}
 
 }
