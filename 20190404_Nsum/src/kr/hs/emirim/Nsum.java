@@ -9,6 +9,10 @@ public class Nsum {
 		Scanner sc= new Scanner (System.in);
 		String num = sc.nextLine();
 //		int number[]=new int [num.length()];
+		nSum(num);
+	}
+
+	private static void nSum(String num) {
 		int length=num.length();
 		int sum=0;
 		for(int i=0;i<length;i++) {				
