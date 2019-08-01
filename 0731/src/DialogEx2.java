@@ -11,6 +11,7 @@ public class DialogEx2 extends JFrame{
 		super("DialogEex2 예제 프레임");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		JButton btn = new JButton("Show Modal dialog");
+		
 		btn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				dialog.setVisible(true);
@@ -22,6 +23,7 @@ public class DialogEx2 extends JFrame{
 				btn.setText(text);
 			}
 		});
+		
 		getContentPane().add(btn);
 		setSize(250,200);
 		setVisible(true);
